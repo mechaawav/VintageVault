@@ -1,0 +1,28 @@
+<h1>Dashboard del Administrador</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Producto</th>
+      <th>Descripción</th>
+      <th>Stock</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% products.forEach(product => { %>
+      <tr>
+        <td><%= product.name %></td>
+        <td><%= product.description %></td>
+        <td><%= product.stock %></td>
+        <td>
+          <form action="/admin/update-stock" method="POST">
+            <input type="hidden" name="productId" value="<%= product._id %>">
+            <input type="number" name="stock" value="<%= product.stock %>">
+            <button type="submit">Actualizar</button>
+          </form>
+        </td>
+      </tr>
+    <% }) %>
+  </tbody>
+</table>
