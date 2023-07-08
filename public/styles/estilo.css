@@ -14,7 +14,7 @@ header{
     
 }
 
-.container{
+ .container{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -45,4 +45,59 @@ header{
 
 .hr-header{
     width: 90%;
+} 
+
+/* Comienza el HERO */
+
+*{
+    margin:0; 
+    padding: 0;
+
 }
+.container-hero{
+  
+}
+
+.second-div{
+  
+}
+
+.text-ring {
+    position: relative;
+    left: 50px;
+  } 
+  
+  .text-ring [style*=--index] {
+    font-weight: bold;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: calc(var(--font-size, 1) * 1rem);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:
+      translate(-50%, -50%)
+      rotate(calc(360deg / var(--total) * var(--index)))
+      translateY(calc(var(--radius, 5) * -1ch));
+  }
+  
+  .dg :is(.cr.string, .cr.number) input[type=text] {
+    color: white;
+    line-height: 1;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  .img-hero{
+    width: 500px;
+  }
