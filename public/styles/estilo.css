@@ -3,17 +3,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url(//db.onlinewebfonts.com/c/f6c01b136cf37a7e4537ec580df08e63?family=Novecento+Wide+DemiBold);
 @font-face {font-family: "Novecento Wide DemiBold"; src: url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.eot"); src: url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.woff") format("woff"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.svg#Novecento Wide DemiBold") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/795f6dafe6d8931ce7756e1305ee133b?family=Carmen+Sans);
+@font-face {font-family: "Carmen Sans"; src: url("//db.onlinewebfonts.com/t/795f6dafe6d8931ce7756e1305ee133b.eot"); src: url("//db.onlinewebfonts.com/t/795f6dafe6d8931ce7756e1305ee133b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/795f6dafe6d8931ce7756e1305ee133b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/795f6dafe6d8931ce7756e1305ee133b.woff") format("woff"), url("//db.onlinewebfonts.com/t/795f6dafe6d8931ce7756e1305ee133b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/795f6dafe6d8931ce7756e1305ee133b.svg#Carmen Sans") format("svg"); }
+
 
 /* Header */
  
-/* html{   
-background: #636363;  /* fallback for old browsers 
-background: -webkit-linear-gradient(to bottom, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 
-background: linear-gradient(to bottom, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
-
-}  
-*/
-
 header{
      background-color: #73885F; 
      font-family: 'Josefin Sans', sans-serif;
@@ -40,12 +35,12 @@ header{
 }
 
 .nav-words{
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
     color: white;
     position: relative;
     right: 300px;
-    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: "Carmen Sans";
 }
 
 .iconos-header{
@@ -101,10 +96,10 @@ header{
 }
 
 .text-hero{
-  font-family: 'Ysabeau Infant', sans-serif;
+  font-family: "Carmen Sans";
   color: white;
   width: 400px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 100;
 }
 
@@ -128,6 +123,26 @@ header{
   top: 100px;
 }
 
+.text-of-ring{
+  position: relative;
+  left: 35px;
+  top: 35px;
+  font-family: "Novecento Wide DemiBold"; 
+  background-color:#636363;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.price-logo{
+  font-family: "Novecento Wide DemiBold";
+  color:#DBDFA9;
+  font-size: 35px; 
+  position: relative;
+  left: 70px;
+  bottom: 30px;
+}
+
 .codigo-barra-img, .logo-hero, .text-hero{
   padding-top: 20px;
 }
@@ -141,3 +156,64 @@ header{
     left: 150px;
     height: 500px;
   }
+
+  /* Comienza Main-Uno */
+
+  .mainOne{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+  }
+
+  .first-div-mainOne, .second-div-mainOne, .third-div-mainOne {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    left: 200px;
+  }
+
+  .h3-mainOne{
+    font-family: "Novecento Wide DemiBold";
+    font-size: 30px;
+  }
+
+  .texto-mainOne{
+     width: 350px;
+     color: #555555;
+     font-family: "Carmen Sans";
+     position: relative;
+     left: 150px;
+     font-size: 17px;
+    
+  }
+
+  .texto-mainTwo{
+    width: 350px;
+    color: #555555;
+    font-family: "Carmen Sans";
+    position: relative;
+    left: 170px;
+    font-size: 17px;
+   
+ }
+
+ .texto-mainThird{
+  width: 350px;
+  color: #555555;
+  font-family: "Carmen Sans";
+  position: relative;
+  left: 265px;
+  font-size: 17px;
+ 
+}
+
+  .hr-mainOne{
+    width: 80%;
+    position: relative;
+    left: 150px;
+
+  }
+
+/* Comienza mainTwo */
+
