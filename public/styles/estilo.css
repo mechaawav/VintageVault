@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url(//db.onlinewebfonts.com/c/f6c01b136cf37a7e4537ec580df08e63?family=Novecento+Wide+DemiBold);
 @font-face {font-family: "Novecento Wide DemiBold"; src: url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.eot"); src: url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.woff") format("woff"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f6c01b136cf37a7e4537ec580df08e63.svg#Novecento Wide DemiBold") format("svg"); }
 
 /* Header */
-/* 
-html{
-   
-    background: linear-gradient(180deg, rgba(110,132,91,1) 0%, rgba(110,132,91,1) 35%, rgba(132,119,91,1) 100%);
-} */
+ 
+/* html{   
+background: #636363;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to bottom, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to bottom, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+
+}  
+*/
 
 header{
-     background-color: #6e845b; 
+     background-color: #73885F; 
      font-family: 'Josefin Sans', sans-serif;
      padding-top: 20px;
      padding-bottom: 10px;
@@ -41,6 +45,7 @@ header{
     color: white;
     position: relative;
     right: 300px;
+    font-family: 'Ysabeau Infant', sans-serif;
 }
 
 .iconos-header{
@@ -66,18 +71,26 @@ header{
 }
 
 .hero{
-  background-color: #6e845b; 
-  padding-bottom: 350px;
+  /* background-color: #6E845B; */
+  padding-bottom: 150px;
+  background: #636363;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #73885F, #84795B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #73885F, #84795B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .titulo-hero{
   font-family: "Novecento Wide DemiBold"; 
   color:#DBDFA9;
-  font-size: 65px;
+  font-size: 45px;
   width: 80%;
   position: relative;
   left: 150px;
   top: 50px;
+}
+
+.stylishArrow{
+  color: #E89458;
 }
 
 .logo-hero{
@@ -88,7 +101,7 @@ header{
 }
 
 .text-hero{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Ysabeau Infant', sans-serif;
   color: white;
   width: 400px;
   font-size: 20px;
@@ -100,40 +113,31 @@ header{
 }
 
 .first-div{
-
+  position: relative;
+  left: 150px;
+  top: 300px;
 }
 
-.text-ring {
-    position: relative;
-    left: 800px;
-    bottom: 700px;
-    background-color: #E89458;
-  } 
-  
-  .text-ring [style*=--index] {
-    font-weight: bold;
-    font-family: monospace;
-    text-transform: uppercase;
-    background-color: #E89458;
-    font-size: calc(var(--font-size, 1.3) * 1rem);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:
-      translate(-50%, -50%)
-      rotate(calc(360deg / var(--total) * var(--index)))
-      translateY(calc(var(--radius, 5) * -1ch));
-  }
+.ring-text{
+  background-color: #E89458;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: relative;
+  right: 140px;
+  top: 100px;
+}
 
-  .dg :is(.cr.string, .cr.number) input[type=text] {
-    color: white;
-    line-height: 1;
-  }
+.codigo-barra-img, .logo-hero, .text-hero{
+  padding-top: 20px;
+}
+
   
   .img-hero{
-    width: 80%;
+    border-radius: 5px;
+    width: 40%;
     background-color: aqua;
     position: relative;
-    left: 80px;
-    top: 100px;
+    left: 150px;
+    height: 500px;
   }
