@@ -171,6 +171,7 @@ header{
     padding-bottom: 40px;
     position: relative;
     left: 200px;
+    width: 60%;
   }
 
   .h3-mainOne{
@@ -216,4 +217,72 @@ header{
   }
 
 /* Comienza mainTwo */
+
+.mainTwo{
+  padding-bottom: 200px ;
+}
+
+.firstDiv-mainTwo{
+  display: flex;
+  align-items: last baseline;
+  position: relative;
+  left: 310px;
+  width: 900px;
+}
+
+.titulo-mainTwo{
+   font-family: "Novecento Wide DemiBold";
+    font-size: 40px;
+    width: 270px;
+}
+
+.navWords-mainTwo{
+  position: relative;
+  left: 280px;
+}
+
+.a-mainTwo{
+  text-decoration: none;
+  color: #555555;
+  font-family: "Carmen Sans";
+  font-size: 17px;
+}
+
+.img-mainTwo{
+  width: 900px;
+  height: 550px;
+  position: relative;
+  left: 310px;
+  top: 30px;
+}
+
+.secondDiv-mainTwo{
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: 310px;
+  width: 70%;
+}
+
+.p-mainTwo{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 20px;
+  
+}
+
+.precio-mainTwo{
+  font-family: "Novecento Wide DemiBold";
+   font-size: 60px;
+   color: #73885F;  
+   width: 300px;
+}
+
+.textoDos-mainTwo{
+  color: #555555;
+  font-family: "Carmen Sans";
+  font-size: 17px;
+  width: 600px;
+}
+
+/* Comienza mainThree */
 
