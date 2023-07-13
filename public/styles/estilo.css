@@ -162,7 +162,7 @@ header{
   .mainOne{
     padding-top: 150px;
     padding-bottom: 150px;
-    
+    background-color: white;
   }
 
   .first-div-mainOne, .second-div-mainOne, .third-div-mainOne {
@@ -220,6 +220,7 @@ header{
 
 .mainTwo{
   padding-bottom: 200px ;
+  background-color: white;
 }
 
 .firstDiv-mainTwo{
@@ -385,6 +386,7 @@ header{
 .mainFour{
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: white;
 }
 
 .h2-p-container{
@@ -538,3 +540,100 @@ header{
 
 /* Comienza el MainFive */
 
+.mainFive{
+  background-color: #505050;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-flex{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contenedor{
+  width: 400px;
+  border-left: #D9D9D9;
+  position: relative;
+  right: 150px;
+}
+
+.hr-top-bottom{
+   width: 70%;
+   position: relative;
+   left: 200px;
+}
+
+.firstDiv-mainFive{
+   position: relative;
+   left: 150px;
+}
+
+.h1-mainFive-titulo{
+  font-family: "Novecento Wide DemiBold"; 
+  color:#DBDFA9;
+  font-size: 55px;
+  width: 360px;
+  
+}
+
+.p-mainFive-titulo{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 15px;
+  width: 150px;
+  color: #E89458;
+  padding-top: 10px;
+}
+
+.h1-secondDiv{
+    width: 210px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 15px;
+}
+
+.p-secondDiv{
+  font-family: "Carmen Sans";
+  font-size: 15px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.div-logos{
+  padding-top: 20px;
+}
+
+.logos-mainFive{
+  font-size: 25px;
+  color: white;
+  padding-right: 15px;
+}
+
+
+.hr-vertical{
+  width: 300px;
+  color: #D9D9D9;
+  position: relative;
+  top: 109px;
+  left: 30px;
+  transform: rotate(90deg);
+}
+
+/* Comienza Footer */
+
+body{
+  background-color: #505050;
+}
+
+.p-footer{
+  background-color: #505050;
+  font-family: "Carmen Sans";
+  color: #D9D9D9;
+  position: relative;
+  left: 550px;
+  width: 50%;
+  bottom: 20px;
+}
