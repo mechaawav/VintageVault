@@ -379,3 +379,162 @@ header{
 .secondimg-mainThree{
   width: 400px;
 }
+
+/* mainFour */
+
+.mainFour{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.h2-p-container{
+   display: flex;
+   align-items: last baseline;
+   justify-content: space-around;
+}
+
+.h2-mainFour{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 40px;
+  width: 300px;
+}
+
+.p-mainFour{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 15px;
+  width: 100px;
+}
+
+.first-container-img{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   position: relative;
+   top: 20px;
+   width: 100%;
+   padding-bottom: 20px;
+}
+
+.img-first-container{
+   width: 300px;
+}
+
+.img-second-container{
+   width: 300px;
+   position: relative;
+   top: 10px;
+}
+
+.contenedor-hr-p-p{
+  position: relative;
+  top: 10px;
+}
+
+.hr-first-container{
+  height: 2px;
+  width: 310px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #505050;
+  color: #505050;
+}
+
+.titulo-zapas{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 15px;
+  width: 300px;
+  color: #505050;
+  padding-top: 5px;
+}
+
+.precio-zapas{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 15px;
+  width: 100px;
+  color: #6e6e6e;
+}
+
+.second-container{
+  padding-top: 100px;
+}
+
+.colab-img-divs{
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.colab-img-div1{
+   background-color: #DBDFA9;
+   height: 300px;
+   width:250px;
+   border-top-right-radius: 50px;
+   border-bottom-left-radius: 50px;
+}
+
+.colab-img-div2{
+  background-color: #E8B592;
+  height: 300px;
+  width:250px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.colab-img-div3{
+  background-color: #A96B6C;
+  height: 300px;
+  width:250px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.p-colab1{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 20px;
+  width: 220px;
+  color: #505050;
+  position: relative;
+  left: 20px;
+  top: 40px;
+}
+
+.p-colab2{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 20px;
+  width: 200px;
+  color: #505050;
+  position: relative;
+  left: 25px;
+  top: 40px;
+}
+
+.p-colab3{
+  font-family: "Novecento Wide DemiBold";
+  font-size: 20px;
+  width: 200px;
+  color: #DBDFA9;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+.img-colab{
+  width: 250px;
+  border: none;
+  position: relative;
+  top: 120px;
+  border-bottom-left-radius: 50px;
+}
+
+.img-colab3{
+  width: 250px;
+  height: 160px;
+  border: none;
+  position: relative;
+  top: 120px;
+  border-bottom-left-radius: 50px;
+}
+
+/* Comienza el MainFive */
+
