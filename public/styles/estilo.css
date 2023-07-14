@@ -377,6 +377,12 @@ header{
   left: 50px;
 }
 
+
+.logo-mainThree:hover{
+  cursor: pointer;
+}
+
+
 .firstimg-mainThree{
   width: 400px;
 }
@@ -608,6 +614,10 @@ header{
 
 .p-mainFive-titulo:hover{
   cursor: pointer;
+}
+
+.a-mainFive{
+  text-decoration: none;
 }
 
 .h1-secondDiv{
