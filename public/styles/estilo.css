@@ -320,6 +320,10 @@ header{
   font-size: 30px;
 }
 
+.boton-mainThree:hover{
+  cursor: pointer;
+}
+
 .secondDiv-mainThree{
   display: flex;
   justify-content: center;
@@ -407,6 +411,10 @@ header{
   width: 100px;
 }
 
+.p-mainFour:hover{
+  cursor: pointer;
+}
+
 .first-container-img{
    display: flex;
    align-items: center;
@@ -419,13 +427,17 @@ header{
 
 .img-first-container{
    width: 300px;
+   transition: all 400ms ease-out;
 }
 
 .img-second-container{
    width: 300px;
    position: relative;
    top: 10px;
+   transition: all 400ms ease-out;
 }
+
+
 
 .contenedor-hr-p-p{
   position: relative;
@@ -527,6 +539,12 @@ header{
   position: relative;
   top: 120px;
   border-bottom-left-radius: 50px;
+  transition: all 400ms ease-out;
+}
+
+.img-colab:hover, .img-colab3:hover, .img-first-container:hover, .img-second-container:hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .img-colab3{
@@ -536,6 +554,7 @@ header{
   position: relative;
   top: 120px;
   border-bottom-left-radius: 50px;
+  transition: all 400ms ease-out;
 }
 
 /* Comienza el MainFive */
@@ -585,6 +604,10 @@ header{
   width: 150px;
   color: #E89458;
   padding-top: 10px;
+}
+
+.p-mainFive-titulo:hover{
+  cursor: pointer;
 }
 
 .h1-secondDiv{
